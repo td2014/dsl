@@ -1,3 +1,4 @@
 #!/bin/bash
 lex todo_lex.txt
-cc lex.yy.c -o example -ll
+yacc -d todo_yacc.txt
+cc lex.yy.c y.tab.c -o example.exe
