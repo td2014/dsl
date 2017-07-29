@@ -7,6 +7,7 @@
 STOP    return STOP;
 START   return START;
 action  return TOKACTION;
+update  return TOKUPDATE;
 [0123456789]+    return NUMBER;
 [a-zA-Z][a-zA-Z0-9]*   return WORD;
 %%
